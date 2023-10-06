@@ -92,6 +92,7 @@ select:focus{
     padding: 8px;
     box-sizing: border-box;
     border: 1px solid #ced4da;
+    border-radius: 5px;
 }
 
 .form-input select{
