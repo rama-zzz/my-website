@@ -71,6 +71,8 @@ p{
     float: right;
     border-radius: 30;
     margin: 0 20px;
+    
+    
 }
 .clear{
     clear: both;
@@ -85,6 +87,40 @@ p{
 .section-2{
     background-color: #204ECF;
     color: #fff;
+}
+
+.section-2 .detail{
+    background-color: #fff;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section-2 .detail a{
+    text-decoration: none;
+    color: #204ECF;
+    /* text-transform: uppercase; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section-3 .detail{
+    background-color: #204ECF;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section-3 .detail a{
+    text-decoration: none;
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .section p{
@@ -248,5 +284,10 @@ footer{
 @media screen and (max-width: 768px) {
     .nav{
         flex-direction: column;
+    }
+    .section-1 img{
+        display: block;
+        margin: auto;
+        float: none;
     }
 }
