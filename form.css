@@ -73,6 +73,14 @@ body{
     padding-left: 10px;
     box-sizing: border-box;
 }
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: 1px solid #204ECF;
+    box-shadow: 0 0 5px 1px #204ECF;
+}
+
 .form-input,
 .form-lampiran{
     margin-top: 20px;
