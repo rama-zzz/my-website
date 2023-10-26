@@ -130,8 +130,28 @@ select:focus{
 }
 
 @media screen and (max-width: 768px) {
-    .card{
-        flex-direction: column;
-        width: 600px;
-    }
+    .card {
+    max-width: 95%; 
+    flex-direction: column;
+}
+
+.card-1 {
+    padding: 250px 50px;
+    width: 100%;
+}   
+
+.card-2 {
+    padding: 15px 0; /* Sesuaikan padding pada layar kecil */
+    width: 100%;
+}
+
+/* Perubahan 4: Gunakan font ukuran relatif */
+.card-header {
+    font-size: 1.5em; /* Contoh penggunaan em untuk ukuran font */
+}
+
+/* Perubahan 3: Sesuaikan margin dan spasi elemen-elemen di dalam card */
+.form-input {
+    margin: 10px 0; 
+}
 }
