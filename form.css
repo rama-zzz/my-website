@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* position: relative; */
+    background-color: #618bfe;
+}
+
+
+.card{
+    width: 1200px;
+    display: flex;
+    margin: 40px auto;
+    box-shadow: 0 0px 20px 2px #1141c7;
+}
+.card-1{
+    width: 600px;
+    background-image: linear-gradient(to left top, #0732a9  10%, #204ECF 50%);
+    text-align: justify;
+    padding: 350px 100px;
+    box-sizing: border-box;
+}
+
+.card-1 h1,
+.card-1 p{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-2{
+    width: 600px;
+    background-color: #fff;
+    padding: 15px 0;
+    box-sizing: border-box;
+    
+}
+
+
+.card img{
+    /* margin autoo berlaku untuk display block */
+    display: block;
+    margin: auto;
+}
+.card-header{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.form{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-input input{
+    background: transparent;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: 1px solid #204ECF;
+    box-shadow: 0 0 5px 1px #204ECF;
+}
+
+.form-input,
+.form-lampiran{
+    margin-top: 20px;
+}
+
+.form-input textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.form-input select{
+    background: transparent;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+    box-sizing: border-box; 
+}
+
+.form-lampiran input{
+    background: transparent;
+    color: #495057;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.btn{
+    background-color: #204ECF;
+    color: #fff;
+    border: none;
+    display: block;
+    margin: 15px auto;
+    width: 70%;
+    height: 35px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    /* Perubahan 2: Sesuaikan lebar dan padding */
+.card {
+    max-width: 95%; 
+    flex-direction: column;
+}
+
+.card-1 {
+    padding: 250px 50px;
+    width: 100%;
+}   
+
+.card-2 {
+    padding: 15px 0; /* Sesuaikan padding pada layar kecil */
+    width: 100%;
+}
+
+/* Perubahan 4: Gunakan font ukuran relatif */
+.card-header {
+    font-size: 1.5em; /* Contoh penggunaan em untuk ukuran font */
+}
+
+/* Perubahan 3: Sesuaikan margin dan spasi elemen-elemen di dalam card */
+.form-input {
+    margin: 10px 0; 
+}
+
+}
