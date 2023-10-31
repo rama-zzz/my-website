@@ -297,5 +297,6 @@ footer{
         display: block;
         margin: auto;
         float: none;
+        width: 100%;
     }
 }
